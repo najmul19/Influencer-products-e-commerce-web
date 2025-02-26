@@ -10,7 +10,7 @@
 }
 /* header styles */
 /* nav styles */
-body{
+header{
     margin: 0 150px;
 }
 .navbar{
@@ -46,6 +46,7 @@ body{
     border: none;
     border-radius: 18px;
     padding: 10px;
+    cursor: pointer;
 }
 .header-content{
     margin-top: 185px;
@@ -99,7 +100,50 @@ body{
     display: block;
     text-align: right;
     width: 100%;
-    margin-right: 230px;
+    justify-items: right;
+    margin-right: 510px;
     font-weight: bold;
     cursor: pointer;
+    color: #E02C6D;
+}
+/* styles features section */
+.features{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    /* margin-left: 400px; */
+    gap: 100px;
+    
+}
+.btn-feature{
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.features-content{
+    margin: 80px 0;
+    max-width: 400px;
+}
+.gear-img img{
+    height: 200px;
+}
+/* footer styles */
+.footer-sect{
+    background-color: #0A0826;
+    width: calc(100% - 40px);
+    justify-items: center;
+    padding: 20px;
+}
+.footer-sect p{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.footer-sect h4{
+    margin-bottom: 5px;
+    color: white;
 }
