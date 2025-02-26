@@ -5,6 +5,9 @@
 .dark-1{
     color: #3A3A3A;
 }
+.dark-2{
+    color: #787885;
+}
 /* header styles */
 /* nav styles */
 body{
@@ -81,4 +84,22 @@ body{
 }
 .box img{
     width: 295px;
+}
+.box p{
+    color: #787885;
+    padding: 0;
+    margin: 8px 0;
+}
+.box h4{
+    color: #3A3A3A;
+    padding: 0;
+    margin: 5px 0;
+}
+.see-more {
+    display: block;
+    text-align: right;
+    width: 100%;
+    margin-right: 230px;
+    font-weight: bold;
+    cursor: pointer;
 }
